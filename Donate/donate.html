@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="donate.css">
+    <title>Donate | SPCA</title>
+    <script src="https://kit.fontawesome.com/77b63ec71f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--Navigation Bar-->
+    <div class="container">
+        <div class="brand">
+            <img id="logo" src="Images/logo.png" alt="logo_image.png">
+        </div>
+
+
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="menu-items">
+                    <a href="#">Home</a>
+                </li>
+                <li class="menu-items">
+                    <a href="#">About</a>
+                </li>
+                <li class="menu-items has-sub-menu">
+                    <a href="#">Service</a>
+
+                    <ul class="sub-menu">
+                        <li class="menu-item">
+                            <a href="#">Cats</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Dogs</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Others</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-items">
+                    <a href="#">Volunteer</a>
+                </li>
+                <li class="menu-items">
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!--End of the navBar-->
+
+    <div class="banner">
+      <img src="Images/Dog-cage.jpg" alt="Dog at shelter">
+      <div class="title">Donate</div>
+    </div> <br>
+    <form class="donate" onsubmit="return false" method="post">
+      <div class="amount">
+        <p>Step 1 of 3: Select Donation Amount</p>
+        <input type="button" class="button" name="5" value="$5">
+        <input type="button" class="button" name="15" value="$15">
+        <input type="button" class="button" name="25" value="$25">
+        <input type="button" class="button" name="50" value="$50"> <br>
+        <input type="button" class="button" name="75" value="$75">
+        <input type="button" class="button" name="100" value="$100"> <br>
+        <input type="button" class="button" name="other" value="Other" id="other">
+        <input type="text" name="other" id="otherInput" placeholder="Enter Amount">
+      </div>
+      <div class="info">
+        <p>Step 2 of 3: Enter Personal Information</p>
+        <input type="text" class="personal" id = "fname" name="fname" placeholder="First Name">
+        <input type="text" class="personal" id = "lname" name="lname" placeholder="Last Name"><br>
+        <input type="email" class="personal" name="email" placeholder="Email"><br>
+        <input type="text" class="personal" name="phone" placeholder="Phone Number (e.g. ###-###-####)"><br>
+        <input type="text" class="personal" name="address" placeholder="Address"><br>
+        <input type="text" class="personal" name="city" placeholder="City"><br>
+        <select name="province" id="province">
+          <option value="province">Province</option>
+          <option value="AB">AB</option>
+          <option value="BC">BC</option>
+          <option value="MB">MB</option>
+          <option value="NB">NB</option>
+          <option value="NL">NL</option>
+          <option value="NS">NS</option>
+          <option value="NT">NT</option>
+          <option value="ON">ON</option>
+          <option value="PE">PE</option>
+          <option value="QC">QC</option>
+          <option value="SK">SK</option>
+          <option value="YT">YT</option>
+          <option value="NU">NU</option>
+        </select>
+        <input type="text" class="personal" id = "postal" name="postal" placeholder="Postal Code">
+      </div>
+      <div class="payment">
+        <p>Step 3 of 3: Enter Payment Information</p>
+        <span>Accepted Cards</span>
+        <div class="icons">
+          <i class="fab fa-cc-visa" style="color:navy; font-size: 40px"></i>
+          <i class="fab fa-cc-mastercard" style="color:red; font-size: 40px"></i>
+        </div><br>
+        <input type="text" class="pay" name="name" placeholder="Cardholder Name"><br>
+        <input type="text" class="pay" name="number" placeholder="Card Number"><br>
+        <select name="month" id="month">
+          <option value="month">Month</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+        <select name="year" id="year">
+          <option value="year">Year</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+          <option value="2025">2025</option>
+          <option value="2026">2026</option>
+          <option value="2027">2027</option>
+          <option value="2028">2028</option>
+          <option value="2029">2029</option>
+          <option value="2030">2030</option>
+        </select><br>
+        <input type="text" class="pay" id="number" name="security" placeholder="Security Number">
+      </div>
+      <div class="next">
+        <input type="button" disabled id="previous" name="previous" value="Previous">
+        <input type="button" id="next" name="next" value="Next">
+        <input type="submit" id="submit" name="submit" value="Submit">
+      </div>
+    </form>
+
+    <div class="footer">
+        <div id="for_company">
+            <img src="Images/logo.png" alt="Logo of SPCA" id="logo_footer">
+            <h4 id="nameOfCompany">SPCA</h4>
+        </div>
+        <div class="icon">
+            <a href="https://facebook.com/spcamontreal"><img src="Images/facebook-icon.jpg" alt="facebook-icon.jpg" id="fb_icon"></a> <br>
+            <a href="https://twitter.com/spcamontreal"><img src="Images/IG.jpg" alt="Instagram-icon.jpg" id="ig_icon"> </a>   <br>
+            <a href="https://instagram.com/spcamontreal"><img src="Images/twitter.jpg" alt="twitter-icon.jpg" id="twitter_icon"></a> <br>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="donate.js"></script>
+  </body>
+</html>
