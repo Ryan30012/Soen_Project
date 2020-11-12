@@ -1,0 +1,310 @@
+body{
+  background-color:aliceblue;
+}
+.container{
+  position: relative;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.836);
+}
+img{
+  height:500px;
+  width:100%;
+}
+
+/*Start of Nav Bar*/
+#logo{
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.836);
+  position: relative;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand{
+  border-color: black;
+  border-width: 5px;
+}
+
+.brand h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.brand span{
+  color: #FF5858;
+  font-weight: 400;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+}
+
+.menu-items{
+  position: relative;
+  color: #ffffff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 120%;
+}
+
+.menu-items a{
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+
+.menu-items a:hover{
+  color: #FF5858;
+  background-color: rgb(50, 50, 50);
+}
+
+.has-sub-menu > a{
+  padding-right: 35px;
+  position: relative;
+}
+
+.has-sub-menu > a::after{
+  content: '+';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.has-sub-menu > a:hover::after{
+  content: '+';
+  color: #FF5858;
+}
+
+.has-sub-menu .sub-menu{
+  position: absolute;
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(-200px);
+  pointer-events: none;
+  transition: 0.4s ease-in-out;
+
+  min-width: 100%;
+  width: max-content;
+  background-color: #000000;
+  list-style-type: none;
+}
+
+.has-sub-menu .sub-menu .menu-item{
+  width: 100%;
+}
+
+.menu-item a{
+  color: whitesmoke;
+}
+.has-sub-menu:hover  > .sub-menu{
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
+/*End of Nav Bar*/
+
+#titling{
+    text-align:center;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+#infoVolunteer{
+  background-color:white;
+  padding: 15px;
+  text-align: left;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0px 0px 30px 0px;
+  border:3px solid rgb(185, 0, 37);
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#admissionReq{
+  background-color:white;
+  padding: 15px;
+  text-align: left;
+  width: 100%;
+  margin-right: auto;
+  margin-left: 0px;
+  margin-top: 10px;
+  border-radius: 0px 30px 0px 30px;
+  border:3px solid rgb(185, 0, 37);
+  color:black;
+  width:45%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#note{
+  font: italic 11pt Times, sans-serif;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+#application{
+  background-color:white;
+  padding: 15px;
+  text-align: left;
+  width: 100%;
+  margin-right: auto;
+  margin-left: 0px;
+  margin-top: 10px;
+  border-radius: 0px 30px 0px 30px;
+  border:3px solid rgb(185, 0, 37);
+  color:black;
+  width:100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#button{
+  background-color:  rgb(185, 0, 37);
+  border-radius:30px;
+}
+a.button:link {
+  color:black;
+  text-decoration: none;
+}
+a.button:visited {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.button:hover {
+  color:black;
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: 12pt;
+}
+a.button:active {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.login:link {
+  color:red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.login:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.login:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.login:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.first_field{
+  border-color:rgb(185, 0, 37);
+  border-width: 5px;
+  border-radius:5px;
+}
+
+.legend1{
+  color: rgb(185, 0, 37);
+  font-family: Montserrat;
+}
+
+
+* { 
+    box-sizing: border-box;
+  } 
+  
+  /* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*footer*/
+.footer{
+  background-color: black;
+  margin-top: 10%;
+  width: 100%;
+  height: 40%;
+  color: whitesmoke;
+  display: table;
+}
+#nameOfCompany{
+  position: relative;
+  color: whitesmoke;
+  transform: rotate(90deg);
+  font-size: 40px;
+  text-align: center;
+  width: 25%;
+  height: 15%;
+  margin-top: 20%;
+}
+#logo_footer{
+  margin-top: 7px;
+  width: 230px;
+  height: auto;
+}
+.icon{
+  margin-top: 7px;
+  width: 7%;
+  float: right;
+  align-content: flex-end;
+}
+#for_company{
+  width: 40%;
+  float: left;
+  display: inline-flex;
+}
+#fb_icon{
+  width: 75px;
+  height: 75px;
+}
+#ig_icon{
+  width: 75px;
+  height: 75px;
+}
+#twitter_icon{
+  width: 75px;
+  height: 75px;
+}
+
+/*Styling for 25_form.html*/
+#taskbar1{
+  background-color: white;
+  border-radius:0px 0px 40px 40px;
+  padding:0px 30px 20px 30px;
+  font-family: 'Montserrat', sans-serif;
+}
