@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Application Form: Step 1 | SPCA</title>
+    <link rel="stylesheet" href="volunteer.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--progression bar-->
+</head>
+<body>
+<div id="taskbar1" class="w3-container">
+    <p>Step 1 of 4 </p>
+
+    <div class="w3-light-grey w3-round-xlarge">
+        <div class="w3-container w3-red w3-round-xlarge" style="width:25%">25%</div>
+    </div>
+</div>
+ <!--progression bar-->
+
+ <div>
+<form>
+    <h3>Section 1: Profile</h3>
+    <div id="age">
+    <label> Are you 18 and over?<sup>*</sup> <br>
+    (We invite people under the age of 18 to contact our partner Engage (engageanimal.org) to learn about other ways to get involved with the Montreal SPCA.)<br>
+        <input type="radio" name="age" value="yes" />Yes <br>
+        <input type="radio" name="age" value="no" />No</label> 
+    </div>
+
+    <br><br>
+    
+    <div id="name">
+    <label>Name<sup>*</sup> <br>
+        <input type="text" name="name" placeholder="First Name"/></label> 
+        <input type="text" name="name" placeholder="Last Name"/></label> 
+    </div>
+
+    <br><br>
+
+    <div id="email">
+    <label>Email<sup>*</sup> <br>
+        <input type="text" name="email"/></label> 
+    </div>
+
+    <br><br>
+
+    <div id="number">
+    <label>Phone number<sup>*</sup> <br>
+        <input type="text" name="phone" placeholder ="(XXX)XXX-XXXXX"/></label> 
+    </div>
+        
+    <br><br>
+
+    <div id="address">
+    <label>Address<sup>*</sup> <br>
+        <input type="text" name="address" placeholder ="address"/> <br>
+        <input type="text" name="address" placeholder ="city"/>
+        <input type="text" name = "adress" placeholder="postal code"/></label></div> <br><br>
+    
+
+    <div id="status"></div>
+    <label>Are you?<sup>*</sup> <br>
+        <select name="status">
+            <option value="employed">Employed</option>
+            <option value="student">Student</option>
+            <option value="unemployed">Unemployed</option>
+        </select>
+    </label>
+    </div>
+        
+    <br><br>
+    
+    <div id="sub_status">
+    <label>What field do you work/studying in?<sup>*</sup> <br>
+        <select name="field">
+            <option value="admin">Administration</option>
+            <option value="pr">Business</option>
+            <option value="cs">Computer Science</option>
+            <option value="pr">Customer Service</option>
+            <option value="educ">Education</option>
+            <option value="science">Life sciences/Health</option>
+            <option value="mana">Marketing</option>
+            <option value="mana">Management</option>
+            <option value="social">Social services</option>
+            <option value="other">Other</option> 
+        </select>
+    
+        <label><sup>*</sup>If other, please specify 
+            <input type="text" name="other">
+        </label>
+    </label>
+    </div>
+
+    <br><br>
+
+    <div id="en_speak">
+    <label>Proficiency at speaking English</label>
+        <select name="level">
+            <option value="advanced">Advanced</option>
+            <option value="inter">Intermediate</option>
+            <option value="beginner">Beginner</option>
+            <option value="none">Non-existent</option>
+        </select>
+    </label>
+    </div>
+
+    <br><br>
+
+    <div id="en_write">
+    <label>Proficiency at writting in English</label>
+    <select name="level">
+        <option value="advanced">Advanced</option> 
+        <option value="inter">Intermediate</option>
+        <option value="beginner">Beginner</option>
+        <option value="none">Non-existent</option>
+    </select>
+    </div>
+
+    <br><br>
+
+    <div id="fr_speak">
+    <label>Proficiency at speaking French</label>
+    <select name="level">
+        <option value="advanced">Advanced</option>
+        <option value="inter">Intermediate</option>
+        <option value="beginner">Beginner</option>
+        <option value="none">Non-existent</option>
+    </select>
+    </div>
+
+    <br><br>
+
+    <div id="fr_write">
+    <label>Proficiency at writting in French</label>
+    <select name="level">
+        <option value="advanced">Advanced</option>
+        <option value="inter">Intermediate</option>
+        <option value="beginner">Beginner</option>
+        <option value="none">Non-existent</option>
+    </select>
+    </div>
+
+    <br><br>
+
+    <div id="allergy">
+    <label>Are you allergic to any animals?<sup>*</sup> <br>
+        <input type="radio" name="age" value="yes" />Yes <br>
+        <input type="radio" name="age" value="no" />No</label> 
+    </div>
+    
+    <br><br>
+
+    <div id="interests">
+    <label>What volunteering activities are you interested in? <br>
+        <input type="checkbox" name="" value=""/>Administration<br>
+        <input type="checkbox" name="" value=""/>Animal care<br>
+        <input type="checkbox" name="" value=""/>Communications<br>
+        <input type="checkbox" name="" value=""/>Computing<br>
+        <input type="checkbox" name="" value=""/>Customer service<br>
+        <input type="checkbox" name="" value=""/>Dog walking<br>
+        <input type="checkbox"name="" value=""/>Transport<br>
+        <input type="checkbox" name="" value=""/>Manual work
+    </label>    
+    </div>
+
+    <br><br>
+
+    <div id="lift"></div>
+    <label>Are you capable of lifting loads weighing more than 30 lbs (15kg)? <br>
+        <input type="radio" name="age" value="yes" />Yes <br>
+        <input type="radio" name="age" value="no" />No</label> 
+    </div>
+
+    <br><br>
+
+    <button onclick=next1()><a href="50_form.html">NEXT</a></button>
+</form>
+</div>
+<script>
+    src = "volunteer.js"
+</script>
+</body>
+</html>
