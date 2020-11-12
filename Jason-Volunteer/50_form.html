@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Application Form: Step 2 | SPCA</title>
+    <link rel="stylesheet" href="volunteer_partII.css">
+    <link rel="stylesheet" href="volunteer.css">
+    <style>
+        table, th, td {
+        border: 1px solid black;}
+    </style>
+    <!--progression bar-->
+</head>
+<body>
+    <p class="taskbar2">Step 2 of 4 </p>
+    <!--progression bar-->
+
+    <form id = "form"> 
+        <h3>Section 2: Your Availability</h3>
+        <fieldset class="first_field">
+            <legend class="legend1">Availability</legend>
+            <table style="width:100%">
+                <tr>
+                    <th><label>Monday</label></th>
+                    <th><label>Tuesday</label></th>
+                    <th><label>Wednesday</label></th>
+                    <th><label>Thursday</label></th>
+                    <th><label>Friday</label></th>
+                    <th><label>Saturday</label></th>
+                    <th><label>Sunday</label></th>
+                </tr>
+                <tr>
+                    <td rowspan="3">
+                        <input type="radio" id="timeslot"/>Morning<br>
+                        <input type="radio" id="timeslot"/>Afternoon<br>
+                        <input type="radio" id="timeslot"/>Evening
+                    </td>
+                    <td>
+                        <input type="radio" id="timeslot"/>Morning<br>
+                        <input type="radio" id="timeslot"/>Afternoon<br>
+                        <input type="radio" id="timeslot"/>Evening
+                    </td>
+                    <td>
+                        <input type="radio" id="timeslot"/>Morning<br>
+                        <input type="radio" id="timeslot"/>Afternoon<br>
+                        <input type="radio" id="timeslot"/>Evening
+                    </td>
+                    <td>
+                        <input type="radio" id="timeslot"/>Morning<br>
+                        <input type="radio" id="timeslot"/>Afternoon<br>
+                        <input type="radio" id="timeslot"/>Evening
+                    </td>
+                    <td>
+                        <input type="radio" id="timeslot"/>Morning<br>
+                        <input type="radio" id="timeslot"/>Afternoon<br>
+                        <input type="radio" id="timeslot"/>Evening
+                    </td>
+                    <td>
+                        <input type="radio" id="timeslot"/>Morning<br>
+                        <input type="radio" id="timeslot"/>Afternoon<br>
+                        <input type="radio" id="timeslot"/>Evening
+                    </td>
+                    <td>
+                        <input type="radio" id="timeslot"/>Morning<br>
+                        <input type="radio" id="timeslot"/>Afternoon<br>
+                        <input type="radio" id="timeslot"/>Evening
+                    </td>
+                </tr>
+                <p>You must be available for one or more blocks of at least 3 hours.</p>
+            </table>
+        </fieldset>
+
+        <br><br>
+
+        <div ></div>
+        <label>How often would you like to help the SPCA?<br>  
+            <input type="radio" name="time" value=""/>Daily<br>
+            <input type="radio" name="time" value=""/>Weekly<br>
+            <input type="radio" name="time" value=""/>Biweekly<br>
+            <input type="radio" name="time" value=""/>Monthly<br>
+            <input type="radio" name="time" value=""/>Occasionally (depending on the needs of the moment)
+        </label>
+
+        <br><br>
+
+        <label>How long do you wish to help the SPCA?<br>  
+            <input type="radio" name="duration" value=""/>1 to 6 months<br>
+            <input type="radio" name="duration" value=""/>6 months to 1 year<br>
+            <input type="radio" name="duration" value=""/>1 year or more
+        </label>
+
+        <br><br>
+
+        <label>What are your preferences on helping the SPCA?<br>  
+            <input type="radio" name="duration" value=""/>Work at our premise<br>
+            <input type="radio" name="duration" value=""/>Work at home
+        </label>
+<br><br>
+        <button  onclick="back2()"><a href="25_form.html">BACK</a></button>
+        <button ionclick="next2()"><a href="75_form.html">NEXT</a></button>
+    </form>
+    
+    <script>
+        src = "volunteer_part.js"
+    </script>
+</body>
+</html>
