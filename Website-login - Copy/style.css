@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(236, 240, 240);
+}
+
+/*  import librairies or code here */
+
+
+    
+
+/*  End for librairies*/
+
+/*
+
+    css for nav bar here
+
+*/
+
+/*
+
+    css for footer here
+
+*/
+
+/* css for inside the page (CONTENT) */
+.content {
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+}
+form{
+    width: 90%;
+    padding: 5%;
+    display: table;
+}
+.login{
+    display: table-cell;
+    width: 35%;
+    border: 2px solid black;
+    border-right: 1px solid black;
+    background-color: rgb(227, 227, 255);
+    border-radius: 15px 0 0 15px;
+    font-family: 'Montserrat',sans-serif;
+}
+.title{
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 5%;
+    font-family: 'Proza libre', sans-serif;
+    font-size: 30px;
+}
+.signup{
+    display: table-cell;
+    width: 35%;
+    border: 2px solid black;
+    border-left: 1px solid black;
+    background-color: rgb(227, 227, 255);
+    border-radius: 0 15px 15px 0;
+    font-family: 'Montserrat',sans-serif;
+}
+.input{
+    width: 75%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1.5px solid black;
+    margin: 5%;
+    margin-bottom: 0%;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.form-group label{
+    display: block;
+    margin-left: 7.5%;
+    font-size: 20px;
+    margin-top: 5%;
+}
+.passreset{
+    padding-left: 7.5%;
+    margin-top: 5%;
+}
+.checkbox{
+    margin-top: 5%;
+    margin-left: 5%;
+    display: table;
+}
+.input_checkbox{
+    display: table-cell;
+}
+.checkbox label {
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-right: 15%;
+    padding-left: 5%;
+    font-size: 20px;
+    display: table-cell;
+}
+.Sign, .Log{
+    width: 40%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1.5px solid black;
+}
+.load-btn {
+    margin: 5% 0 5% 0;
+    padding-left: 30%;
+}
+.alert{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(216, 83, 83);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    padding: 2% 8% 2% 8%;
+    font-size: 18px;
+}
+
+
+
+/* End of CSS for page content */
