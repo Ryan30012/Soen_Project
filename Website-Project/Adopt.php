@@ -42,6 +42,9 @@ if ($stmt->execute()) {
         <li class="menu-items">
           <a href="contact-us.html">Contact us</a>
         </li>
+        <li class="menu-items">
+          <a href="login_signup.php">Log in</a>
+        </li>
       </ul>
     </nav>
   </div>
