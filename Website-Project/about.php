@@ -11,49 +11,38 @@
 
   </head>
   <body>
-    <div class="container">
-      <div class="brand">
-        <img id="logo" src="Images/logo.png" alt="logo_image.png">
-      </div>
-
-
-      <nav class="navbar">
-        <ul class="menu">
-          <li class="menu-items">
-            <a href="home.php">Home</a>
-          </li>
-          <li class="menu-items">
-            <a href="about.php">About</a>
-          </li>
-
-          <li class="menu-items has-sub-menu">
-            <a href="#">Service</a>
-
-            <ul class="sub-menu">
-              <li class="menu-item">
-                <a href="#">Cats</a>
-              </li>
-              <li class="menu-item">
-                <a href="#">Dogs</a>
-              </li>
-              <li class="menu-item">
-                <a href="#">Others</a>
-              </li>
-            </ul>
-          </li>
-          <li class="menu-items">
-            <a href="volunteer.html">Volunteer</a>
-          </li>
-          <li class="menu-items">
-            <a href="donate.html">Donate</a>
-          </li>
-          <li class="menu-items">
-            <a href="contact-us.html">Contact us</a>
-          </li>
-        </ul>
-      </nav>
+       <!--Navigation Bar-->
+  <div class="container">
+    <div class="brand">
+      <img id="logo" src="Images/logo.png" alt="logo_image.png">
     </div>
-    <!--End of the navBar-->
+    <nav class="navbar">
+      <ul class="menu">
+        <li class="menu-items">
+          <a href="home.php">Home</a>
+        </li>
+        <li class="menu-items">
+          <a href="about.php">About</a>
+        </li>
+        <li class="menu-items">
+          <a href="Adopt.php">Adopt</a>
+        </li>
+        <li class="menu-items">
+          <a href="volunteer.html">Volunteer</a>
+        </li>
+        <li class="menu-items">
+          <a href="donate.html">Donate</a>
+        </li>
+        <li class="menu-items">
+          <a href="contact-us.html">Contact us</a>
+        </li>
+        <li class="menu-items">
+          <a href="login_signup.php">Log in</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!--End of the navBar-->
 <div class="" id="page">
   <div class="content">
 
