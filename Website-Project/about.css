@@ -1,0 +1,79 @@
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+#page {
+  max-width: 100%;
+  margin: auto;
+  background-color: #f2f2f2;
+}
+.content {
+  background-color: white;
+  width: 90%;
+  margin: 0 5%;
+  display: table;
+}
+.missionicon{
+  color: #aa1917;
+  padding: 5rem 20rem;
+}
+.missionicon:hover{
+  color:#dc0d15;
+}
+.mission{
+  margin: 2rem;
+  text-align: left;
+  display: flex;
+}
+
+.missionstatement{
+  padding: 2rem 10rem;
+}
+.stats{
+   margin:0 2rem;
+
+  display: flex;
+
+}
+.animalstats{
+  padding: 2rem 20rem;
+
+}
+.animalstats span{
+  color: #dc0d15;
+  font-weight: bolder;
+}
+.peticon i{
+   margin:0rem 2rem 2rem;
+}
+.survival{
+  padding: 2rem 10rem;
+
+}
+.survival span{
+  margin: 2rem;
+}
+.survival h3{
+  color: #dc0d15;
+  margin: 2rem 0 0;
+}
+.board{
+  margin: 2rem 5.5rem;
+   display: flex;
+}
+
+ .board-members{
+   text-align: center;
+   padding: 2rem;
+ }
+ .boardicon{
+   color: #aa1917;
+  }
+  .boardicon:hover{
+    color: #000;
+
+  }
+  .board-members:hover{
+    color: #aa1917;
+
+  }
