@@ -73,11 +73,11 @@
          $mail->SMTPAuth = true;
 
          //Username to use for SMTP authentication
-         $mail->Username = 'spca.group@gmail.com';
+         $mail->Username = 'dummyemailryan@gmail.com';
          //Password to use for SMTP authentication
-         $mail->Password = 'Website22@';
+         $mail->Password = 'diabolo1';
          //Set who the message is to be sent from
-         $mail->setFrom('spca.group@gmail.com', 'SPCA Administrator');
+         $mail->setFrom('dummyemailryan@gmail.com', 'SPCA Administrator');
          //Set an alternative reply-to address
          //$mail->addReplyTo('replyto@example.com', 'First Last');
          //Set who the message is to be sent to email and name
