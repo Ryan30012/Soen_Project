@@ -1,0 +1,391 @@
+/* *Start of Nav Bar*/
+#logo {
+  width: 88px;
+  height: 108px;
+  margin-left: 4rem;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.836);
+  position: relative;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  border-color: black;
+  border-width: 5px;
+}
+
+.brand h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.brand span {
+  color: #aa1917;
+  font-weight: 400;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu-items {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 120%;
+}
+
+.menu-items a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+
+.menu-items a:hover {
+  color: #dc0d15;;
+  background-color: rgb(50, 50, 50);
+}
+
+.has-sub-menu>a {
+  padding-right: 35px;
+  position: relative;
+}
+
+.has-sub-menu>a::after {
+  content: '+';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.has-sub-menu>a:hover::after {
+  content: '+';
+  color: #dc0d15;;
+}
+
+.has-sub-menu .sub-menu {
+  position: absolute;
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(-200px);
+  pointer-events: none;
+  transition: 0.4s ease-in-out;
+  min-width: 100%;
+  width: max-content;
+  background-color: #000000;
+  list-style-type: none;
+}
+
+.has-sub-menu .sub-menu .menu-item {
+  width: 100%;
+}
+
+.menu-item a {
+  color: whitesmoke;
+}
+
+.has-sub-menu:hover>.sub-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+/*End of Nav Bar*/
+
+.banner {
+  position: relative;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  position:absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  align-self: center;
+}
+
+
+.donate {
+  box-sizing: border-box;
+  width: 60%;
+  height: auto;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding-left: 1em;
+  text-align: center;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.amount, .info, .payment, #submit {
+  display: none;
+}
+
+#hide {
+  display: none;
+}
+
+input[type = button], #submit, #otherInput {
+  width: 40%;
+  height: 50px;
+  margin-bottom: 15px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  border: solid white;
+  border-radius: 8px;
+  color: black;
+  background: rgba(170, 25, 23, 0.3);
+  font-size: 25px;
+  font-family: Montserrat;
+}
+
+input[type = button]:hover, #submit:hover {
+  background: rgba(170, 25, 23, 1);
+  color: white;
+}
+
+input[type = button]:disabled {
+  opacity:0.3;
+}
+
+input[type = button]:focus {
+  background: rgba(170, 25, 23, 1);
+  color: white;
+  border: solid black;
+  border-radius: 8px;
+}
+
+#month {
+  position: relative;
+  left: 0.75em;
+}
+
+#year {
+  position: relative;
+  left: 1em;
+}
+
+#other, #otherInput {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#otherInput {
+  background: rgba(170, 25, 23, 1);
+  border: solid black;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+
+#otherInput::placeholder {
+  color: white;
+}
+
+.info input, .payment input {
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  align-self: center;
+  padding: 15px;
+  width: 75%;
+  font-family: Montserrat;
+}
+
+#fname, #lname, #postal, #number {
+  width: 35%;
+}
+
+#fname {
+  margin-right: 5%;
+}
+
+#number {
+  position: relative;
+  right: 20%;
+}
+
+.info select, .payment select {
+  margin-bottom: 15px;
+  margin-right: 5%;
+  padding: 15px;
+  width: 35%;
+}
+
+.payment select {
+  margin-right: 3.5%;
+  margin-left: 1%;
+}
+
+/* subscription */
+.updates {
+  text-align: center;
+  width: 100%;
+  padding: 2rem 0.9375rem;
+  background-color: black;
+}
+
+.updates h3 {
+  text-align: center;
+  font-family: Montserrat;
+  color: #FFFF;
+  font-weight: normal
+}
+
+.updates p {
+  color: #BDC4CC;
+}
+.updates-header h3:hover {
+  color: #aa1917;
+
+}
+.updates-header p:hover {
+  color: #aa1917;
+
+}
+
+.updates-input {
+  padding: 2rem;
+}
+
+.info {
+  display: inline-block;
+  margin: 0;
+}
+
+.reg-input {
+  background-color: #FFF;
+  height: 64px;
+  width: 284px;
+  border-style: none;
+  margin: 0;
+  font-size: .9375rem;
+  padding-left: 1rem;
+}
+
+.reg-btn {
+  margin: 0;
+  background-color: #aa1917;
+  border-style: none;
+  height: 64px;
+  width: 176px;
+  text-align: center;
+  font-family: Montserrat;
+  color: #FFF;
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  padding: 0 1.35rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.btn input:hover{
+   color: #aa1917;
+   background-color: #FFF;
+
+}
+.btn {
+  margin: 0;
+}
+
+
+/*footer*/
+.footer {
+  background-color: black;
+  margin-top: 0;
+  width: 100%;
+  height: 40%;
+  color: whitesmoke;
+  display: flex;
+  padding: 0rem 0.9375rem;
+}
+
+#logo_footer {
+  margin-top: 7px;
+  width: 108px;
+  height: 133px;
+  margin-left: 2.5rem;
+}
+
+.col-2 {
+  text-align: center;
+  padding: 7%;
+  /* background-color: black; */
+  /* background-color: #f2f2f2; */
+  margin: 4%;
+  flex: 1;
+  padding: 16px;
+}
+
+.icon {
+  margin-top: 7px;
+  width: 7%;
+  float: right;
+  align-content: flex-end;
+}
+.col-2 a:hover{
+ color: #aa1917;
+}
+.icons {
+  color: white;
+  margin: 0.5rem;
+}
+
+.icons:hover{
+  color: #aa1917;
+
+}
+.address {
+  font-family: Montserrat;
+  font-weight: 200;
+}
+.address:hover {
+  color: #aa1917;
+
+}
+#for_company {
+  width: 40%;
+  float: left;
+  display: inline-flex;
+}
+
+#fb_icon {
+  width: 75px;
+  height: 75px;
+}
+
+#ig_icon {
+  width: 75px;
+  height: 75px;
+}
+
+#twitter_icon {
+  width: 75px;
+  height: 75px;
+}
