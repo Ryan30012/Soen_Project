@@ -18,37 +18,34 @@ if ($stmt->execute()) {
 </head>
 <body>
     <!--Navigation Bar-->
-    <div class="container">
-        <div class="brand">
-            <img id="logo" src="Images/logo.png" alt="logo_image.png">
-        </div>
-
-
-        <nav class="navbar">
-            <ul class="menu">
-                <li class="menu-items">
-                    <a href="home.html">Home</a>
-                </li>
-                <li class="menu-items">
-                    <a href="#">About</a>
-                </li>
-                <li class="menu-items">
-                  <a href="donate.html">Donate</a>
-                </li>
-                
-                <li class="menu-items">
-                    <a href="Adopt.html">Adopt</a>
-                </li>
-                <li class="menu-items">
-                    <a href="volunteer.html">Volunteer</a>
-                </li>
-                <li class="menu-items">
-                    <a href="contact-us.html">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+  <div class="container">
+    <div class="brand">
+      <img id="logo" src="Images/logo.png" alt="logo_image.png">
     </div>
-    <!--End of the navBar-->
+    <nav class="navbar">
+      <ul class="menu">
+        <li class="menu-items">
+          <a href="home.php">Home</a>
+        </li>
+        <li class="menu-items">
+          <a href="about.php">About</a>
+        </li>
+        <li class="menu-items">
+          <a href="Adopt.php">Adopt</a>
+        </li>
+        <li class="menu-items">
+          <a href="volunteer.html">Volunteer</a>
+        </li>
+        <li class="menu-items">
+          <a href="donate.html">Donate</a>
+        </li>
+        <li class="menu-items">
+          <a href="contact-us.html">Contact us</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!--End of the navBar-->
 
     <div class="main_content">
 
@@ -135,43 +132,50 @@ if ($stmt->execute()) {
 
 
     <div class="updates">
-        <div class="">
-        <h3><span> STAY ON TOP OF THE LATEST NEWS</span></h3>
-        <p><span>Learn about the Montreal SPCA’s activities and follow our adventures as we help animals in distress.</span></p>
-        </div>
-        <div class="updates-input">
+    <div class="">
+      <h3><span> STAY ON TOP OF THE LATEST NEWS</span></h3>
+      <p><span>Learn about the Montreal SPCA’s activities and follow our adventures as we help animals in distress.</span></p>
+    </div>
+    <form class="" action="" method="post">
+      <div class="updates-input">
         <div class="info">
-            <input type="text" name="" value="" class="reg-input" placeholder="First Name">
-    
-        </div>
-        <div class="info">
-            <input type="text" name="" value="" class="reg-input" placeholder="Last Name">
-    
+          <input type="text" name="fname" value="" class="reg-input" placeholder="First Name">
+
         </div>
         <div class="info">
-            <input type="text" name="" value="" class="reg-input" placeholder="Email address">
-    
+          <input type="text" name="lname" value="" class="reg-input" placeholder="Last Name">
+
+        </div>
+        <div class="info">
+          <input type="text" name="email" value="" class="reg-input" placeholder="Email address">
+
         </div>
         <div class="info btn">
-            <button type="button" name="button" class="reg-btn">Register</button>
+          <input type="submit" name="submit" class="reg-btn"value="Register">
+          <!-- <submit type="button" name="button" class="reg-btn">Register</submit> -->
         </div>
-        </div>
-    
-    </div>
-    <div class="footer">
-        <div id="for_company">
-            <img src="Images/logo.png" alt="Logo of SPCA" id="logo_footer">
-            <h4 id="nameOfCompany">SPCA</h4>
-        </div>
-        <div class="icon">
-            <a href="https://facebook.com/spcamontreal"><img src="Images/facebook-icon.jpg" alt="facebook-icon.jpg" id="fb_icon"></a> <br>
-            <a href="https://twitter.com/spcamontreal"><img src="Images/IG.jpg" alt="Instagram-icon.jpg" id="ig_icon"> </a>   <br>
-            <a href="https://instagram.com/spcamontreal"><img src="Images/twitter.jpg"" alt="Contact-us-source-files/twitter.jpg" id="twitter_icon"></a> <br>
-        </div>
-    
-    </div>
+      </div>
+    </form>
 
 
-    <script src="services.js"></script>
+  </div>
+  <div class="footer">
+    <div id="for_company " class="col-2">
+      <img src="Images/logo2.png" alt="Logo of SPCA" id="logo_footer">
+    </div>
+    <div class="col-2 address ">
+      <h4>CONTACT US</h4>
+      <p>5215 Jean-Talon Street West <br>Montreal, Quebec <br>H4P 1X4 <br> 514-735-2711</p>
+    </div>
+    <div class="icon col-2">
+      <a href="https://facebook.com/spcamontreal"><i class="fab fa-facebook fa-4x icons"></i><br>
+        <a href="https://instagram.com/spcamontreal"><i class="fab fa-instagram fa-4x icons"></i> <br>
+          <a href="https://twitter.com/spcamontreal"><i class="fab fa-twitter fa-4x icons"></i> <br>
+    </div>
+
+  </div>
+
+
+    <script src="adopt.js"></script>
 </body>
 </html>
