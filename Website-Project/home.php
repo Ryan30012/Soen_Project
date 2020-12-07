@@ -15,13 +15,11 @@
 </head>
 
 <body>
-  <!--Navigation Bar-->
+   <!--Navigation Bar-->
   <div class="container">
     <div class="brand">
       <img id="logo" src="Images/logo.png" alt="logo_image.png">
     </div>
-
-
     <nav class="navbar">
       <ul class="menu">
         <li class="menu-items">
@@ -30,21 +28,8 @@
         <li class="menu-items">
           <a href="about.php">About</a>
         </li>
-
-        <li class="menu-items has-sub-menu">
-          <a href="#">Service</a>
-
-          <ul class="sub-menu">
-            <li class="menu-item">
-              <a href="#">Cats</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">Dogs</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">Others</a>
-            </li>
-          </ul>
+        <li class="menu-items">
+          <a href="Adopt.php">Adopt</a>
         </li>
         <li class="menu-items">
           <a href="volunteer.html">Volunteer</a>
@@ -55,10 +40,14 @@
         <li class="menu-items">
           <a href="contact-us.html">Contact us</a>
         </li>
+        <li class="menu-items">
+          <a href="login_signup.php">Log in/Sign up</a>
+        </li>
       </ul>
     </nav>
   </div>
   <!--End of the navBar-->
+
 
 
   <div id="page">
