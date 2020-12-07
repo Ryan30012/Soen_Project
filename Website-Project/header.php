@@ -30,21 +30,8 @@
         <li class="menu-items">
           <a href="about.php">About</a>
         </li>
-
-        <li class="menu-items has-sub-menu">
-          <a href="#">Service</a>
-
-          <ul class="sub-menu">
-            <li class="menu-item">
-              <a href="#">Cats</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">Dogs</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">Others</a>
-            </li>
-          </ul>
+        <li class="menu-items">
+          <a href="Adopt.php">Adopt</a>
         </li>
         <li class="menu-items">
           <a href="volunteer.html">Volunteer</a>
@@ -54,6 +41,9 @@
         </li>
         <li class="menu-items">
           <a href="contact-us.html">Contact us</a>
+        </li>
+        <li class="menu-items">
+          <a href="login_signup.php">Log in/Sign up</a>
         </li>
       </ul>
     </nav>
