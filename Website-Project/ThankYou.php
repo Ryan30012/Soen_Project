@@ -149,6 +149,9 @@
           </li>
           <li class="menu-items">
             <a href="contact-us.html">Contact us</a>
+          <li class="menu-items">
+            <a href="login_signup.php">Log in</a>
+          </li>
           </li>
         </ul>
       </nav>
