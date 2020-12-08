@@ -12,9 +12,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--
-        place code for nav bar here
-    -->
+    <!--Navigation Bar-->
+  <div class="container">
+    <div class="brand">
+      <img id="logo" src="Images/logo.png" alt="logo_image.png">
+    </div>
+    <nav class="navbar">
+      <ul class="menu">
+        <li class="menu-items">
+          <a href="home.php">Home</a>
+        </li>
+        <li class="menu-items">
+          <a href="about.php">About</a>
+        </li>
+        <li class="menu-items">
+          <a href="Adopt.php">Adopt</a>
+        </li>
+        <li class="menu-items">
+          <a href="volunteer.html">Volunteer</a>
+        </li>
+        <li class="menu-items">
+          <a href="donate.html">Donate</a>
+        </li>
+        <li class="menu-items">
+          <a href="contact-us.html">Contact us</a>
+        </li>
+        <li class="menu-items">
+          <a href="login_signup.php">Log in</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!--End of the navBar-->
 
     <div class="content-background">
 
@@ -90,8 +119,48 @@
         </div>
     </div>
 
-    <!--
-        place code for footer here
-    -->
+    <div class="updates">
+    <div class="">
+      <h3><span> STAY ON TOP OF THE LATEST NEWS</span></h3>
+      <p><span>Learn about the Montreal SPCA’s activities and follow our adventures as we help animals in distress.</span></p>
+    </div>
+    <form class="" action="" method="post">
+      <div class="updates-input">
+        <div class="info">
+          <input type="text" name="fname" value="" class="reg-input" placeholder="First Name">
+
+        </div>
+        <div class="info">
+          <input type="text" name="lname" value="" class="reg-input" placeholder="Last Name">
+
+        </div>
+        <div class="info">
+          <input type="text" name="email" value="" class="reg-input" placeholder="Email address">
+
+        </div>
+        <div class="info btn">
+          <input type="submit" name="submit" class="reg-btn"value="Register">
+          <!-- <submit type="button" name="button" class="reg-btn">Register</submit> -->
+        </div>
+      </div>
+    </form>
+
+
+  </div>
+  <div class="footer">
+    <div id="for_company " class="col-2">
+      <img src="Images/logo2.png" alt="Logo of SPCA" id="logo_footer">
+    </div>
+    <div class="col-2 address ">
+      <h4>CONTACT US</h4>
+      <p>5215 Jean-Talon Street West <br>Montreal, Quebec <br>H4P 1X4 <br> 514-735-2711</p>
+    </div>
+    <div class="icon col-2">
+      <a href="https://facebook.com/spcamontreal"><i class="fab fa-facebook fa-4x icons"></i><br>
+        <a href="https://instagram.com/spcamontreal"><i class="fab fa-instagram fa-4x icons"></i> <br>
+          <a href="https://twitter.com/spcamontreal"><i class="fab fa-twitter fa-4x icons"></i> <br>
+    </div>
+
+  </div>
 </body>
 </html>
