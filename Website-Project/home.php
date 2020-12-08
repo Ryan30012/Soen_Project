@@ -370,7 +370,7 @@ session_start();
  //Username to use for SMTP authentication
  $mail->Username = 'dummyemailryan@gmail.com';
  //Password to use for SMTP authentication
- $mail->Password = 'dummyemailryan@gmail.com';
+ $mail->Password = 'diabolo1';
  //Set who the message is to be sent from
  $mail->setFrom('dummyemailryan@gmail.com','SPCA MONTREAL');
  //Set an alternative reply-to address
