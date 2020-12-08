@@ -47,6 +47,9 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <?php if ($_SESSION['account'] == "Admin"): ?>
+        <p class="Admin-title">Admin Account</p>
+    <?php endif; ?>
     <div class="content-background">
         <div class="content">  
             
