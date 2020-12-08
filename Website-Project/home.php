@@ -32,7 +32,7 @@
           <a href="Adopt.php">Adopt</a>
         </li>
         <li class="menu-items">
-          <a href="volunteer.html">Volunteer</a>
+          <a href="volunteer.php">Volunteer</a>
         </li>
         <li class="menu-items">
           <a href="donate.html">Donate</a>
