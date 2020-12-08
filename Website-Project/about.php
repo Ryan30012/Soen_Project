@@ -46,6 +46,7 @@
 <div class="" id="page">
   <div class="content">
 
+<!--  Mission Statement with icon    -->
   <div class="mission">
    <div class="">
       <i class="missionicon fas fa-bullseye fa-9x"></i>
@@ -59,6 +60,8 @@
  <div class="">
    <h1>A look at 2020</h1>
  </div>
+    <!--  2020 statistics of SPCA    -->
+
  <div class="stats">
 <div class="animalstats">
   <i class="fas fa-list-ol fa-3x"></i>
@@ -80,6 +83,8 @@
 </div>
 
  </div>
+    <!--  Team of Board of Directors    -->
+
  <h1>Board of Directors</h1>
 <div class="board">
   <div class="board-members">
