@@ -34,7 +34,7 @@ if ($stmt->execute()) {
           <a href="Adopt.php">Adopt</a>
         </li>
         <li class="menu-items">
-          <a href="volunteer.php">Volunteer</a>
+          <a href="volunteer.html">Volunteer</a>
         </li>
         <li class="menu-items">
           <a href="donate.html">Donate</a>
@@ -81,32 +81,13 @@ if ($stmt->execute()) {
         </div>
 
         <div class="filter-container">
-            <div class="category-head">
-                <ul>
-                    <div class="category-title active" id="all">
-                        <li>All</li> 
-                    </div>
-                    <div class="category-title" id="cat">
-                        <li>Cat</li>
-                    </div>
-                    <div class="category-title" id="dog">
-                        <li>Dog</li>
-                    </div>
-                    <div class="category-title" id="other">
-                        <li>Other</li>
-                    </div>
-                    <div class="category-title" id="medical-issue">
-                        <li>Medical issue</li>
-                    </div>
-                </ul>
-            </div>
 
             <div class="posts-collect">
                 <div class="post-main-container">
                     <?php if(isset($results)): ?>
                     <!--foreach loop here-->
                     <?php foreach ($results as $result): ?>
-                        <div class="all <?php echo $result['type']; ?>">
+                    <div class="all <?php echo $result['type'] . " " . $result['medical_issue']; ?>">
                         <div class="post-image">
                             <img class="img_post" src="Images/<?php echo $result['path_image'];?>" alt="Image of <?php echo $result['name']; ?>">
                             <span class="category-name"><?php echo $result['type']; ?></span>
