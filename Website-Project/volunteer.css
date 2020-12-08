@@ -1,0 +1,902 @@
+body{
+  background-color:aliceblue;
+}
+.container{
+  position: relative;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.836);
+}
+img{
+  height:550px;
+  width:100%;
+}
+
+
+/* *Start of Nav Bar*/
+#logo {
+  width: 88px;
+  height: 108px;
+  margin-left: 4rem;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.836);
+  position: relative;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  border-color: black;
+  border-width: 5px;
+}
+
+.brand h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.brand span {
+  color: #aa1917;
+  font-weight: 400;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu-items {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 120%;
+}
+
+.menu-items a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+
+.menu-items a:hover {
+  color: #dc0d15;;
+  background-color: rgb(50, 50, 50);
+}
+
+.has-sub-menu>a {
+  padding-right: 35px;
+  position: relative;
+}
+
+.has-sub-menu>a::after {
+  content: '+';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.has-sub-menu>a:hover::after {
+  content: '+';
+  color: #dc0d15;;
+}
+
+.has-sub-menu .sub-menu {
+  position: absolute;
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(-200px);
+  pointer-events: none;
+  transition: 0.4s ease-in-out;
+  min-width: 100%;
+  width: max-content;
+  background-color: #000000;
+  list-style-type: none;
+}
+
+.has-sub-menu .sub-menu .menu-item {
+  width: 100%;
+}
+
+.menu-item a {
+  color: whitesmoke;
+}
+
+.has-sub-menu:hover>.sub-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+/*End of Nav Bar*/
+
+body{
+  background-color: rgb(236, 240, 240);
+}
+.main_content {
+  background-color: white;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  padding-bottom:5%;
+}
+
+#titling{
+    text-align:center;
+    color:white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.infos{
+  position: relative;
+  display: table;
+  margin: 0 5% 3% 5%;
+}
+
+#infoVolunteer{
+  background-color:rgb(236, 240, 240);
+  height: 200px;
+  padding: 2% 8% 5% 8%;
+  text-align: left;
+  width: 65%;
+  margin: 5% 0 5% 10%;
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text{
+  text-align: center;
+  word-spacing: 5px;
+  font-size: 12pt;
+  margin-bottom: 2%;
+}
+
+.image2{
+  height: auto;
+   width:100%;
+   border-radius:3px;
+}
+
+#titleVolunteer{
+  text-align: center;
+  font-size: 16pt;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.req_titling{
+  font-weight: 300;
+  font-size: 16pt;
+}
+
+.req{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#admissionReq{
+  background-color:rgb(236, 240, 240);
+  padding:0 4% 2% 3%;
+  text-align: left;
+  margin-top:5%;
+  color:black;
+  width:100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11pt;
+  border: 2.5px solid rgb(236, 240, 240);
+  height: 250px;
+}
+
+
+.imgreq{
+  padding-top:2%;
+}
+
+
+
+#application{
+  background-color:white;
+  text-align: left;
+  margin-right: auto;
+  margin-left: 5%;
+  margin-top: 7%;
+  padding-bottom: 3%;
+  border: solid red;
+  border-radius: 5px;
+  color:black;
+  width:90%;
+  font-family: 'Montserrat', sans-serif;
+}
+#application h3{
+  margin-left:30%;
+  font-size: x-large;
+}
+
+#button{
+  background-color: red;
+  border-color:red;
+  padding: 10px 30px 10px 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
+  border-radius:5px;
+  font-weight: 500;
+}
+a.button:link {
+  color:black;
+  text-decoration: none;
+}
+a.button:visited {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.button:hover {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 12pt;
+}
+a.button:active {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.login:link {
+  color:red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.login:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.login:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.login:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+  /* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 250px; /* Should be removed. Only for demonstration */
+    background-color:rgb(236, 240, 240);
+    text-align:center;
+    margin-left:2%;
+    padding-top:5%;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+  margin-left: 10%;
+}
+
+@media screen and (max-width:930px){
+      body{
+        background-color:aliceblue;
+      }
+      .container{
+        position: relative;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.836);
+      }
+      img{
+        height:550px;
+        width:100%;
+      }
+      
+     
+      /* *Start of Nav Bar*/
+      #logo {
+        width: 88px;
+        height: 108px;
+        margin-left: 4rem;
+      }
+
+      .container {
+        background-color: rgba(255, 255, 255, 0.836);
+        position: relative;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .brand {
+        border-color: black;
+        border-width: 5px;
+      }
+
+      .brand h2 {
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 900;
+      }
+
+      .brand span {
+        color: #aa1917;
+        font-weight: 400;
+      }
+
+      .menu {
+        display: flex;
+        list-style: none;
+      }
+
+      .menu-items {
+        position: relative;
+        color: #ffffff;
+        font-family: Montserrat, sans-serif;
+        font-size: 120%;
+      }
+
+      .menu-items a {
+        display: block;
+        color: #000000;
+        text-decoration: none;
+        padding: 10px 25px;
+      }
+
+      .menu-items a:hover {
+        color: #dc0d15;;
+        background-color: rgb(50, 50, 50);
+      }
+
+      .has-sub-menu>a {
+        padding-right: 35px;
+        position: relative;
+      }
+
+      .has-sub-menu>a::after {
+        content: '+';
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+        color: #000000;
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      .has-sub-menu>a:hover::after {
+        content: '+';
+        color: #dc0d15;;
+      }
+
+      .has-sub-menu .sub-menu {
+        position: absolute;
+        z-index: 999;
+        opacity: 0;
+        transform: translateY(-200px);
+        pointer-events: none;
+        transition: 0.4s ease-in-out;
+        min-width: 100%;
+        width: max-content;
+        background-color: #000000;
+        list-style-type: none;
+      }
+
+      .has-sub-menu .sub-menu .menu-item {
+        width: 100%;
+      }
+
+      .menu-item a {
+        color: whitesmoke;
+      }
+
+      .has-sub-menu:hover>.sub-menu {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: all;
+      }
+
+      /*End of Nav Bar*/
+      
+      body{
+        background-color: rgb(236, 240, 240);
+      }
+      .main_content {
+        background-color: white;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        padding-bottom:5%;
+      }
+      
+      #titling{
+          text-align:center;
+          color:white;
+          position: absolute;
+          top: 60%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-family: 'Montserrat', sans-serif;
+          font-size: 20pt;
+          font-weight: bold;
+      }
+      
+      .infos{
+        position: relative;
+        display: table;
+        margin: 0 5% 3% 5%;
+      }
+      
+      #infoVolunteer{
+        background-color:rgb(236, 240, 240);
+        height: auto;
+        padding: 8px 8% 8px 8%;
+        text-align: left;
+        width: 65%;
+        margin: 5% 0 5% 10%;
+        color:black;
+        font-family: 'Montserrat', sans-serif;
+      }
+      
+      .text{
+        text-align: center;
+        word-spacing: 5px;
+        font-size: 12pt;
+        margin-bottom: 2%;
+      }
+      
+      .image2{
+        height: auto;
+        width:150%;
+        border-radius:3px;
+        margin-left: 12.5%;
+        margin-right:12.5%;
+      }
+      
+      #titleVolunteer{
+        text-align: center;
+        font-weight: 500;
+        font-size: 20pt;
+        margin-bottom: 5px;
+        margin-top: 5px;
+      }
+      
+      .req_titling{
+        font-weight: 900;
+        font-size: 16pt;
+      }
+      
+      .req{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      
+      #admissionReq{
+        background-color:rgb(236, 240, 240);
+        padding:0 4% 2% 3%;
+        text-align: left;
+        margin-top:270px;
+        margin-left:-90%;
+        color:black;
+        width:100%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 11pt;
+        border: 2.5px solid rgb(236, 240, 240);
+        height: auto;
+      }
+      
+      .imgreq{
+        padding-top:2%;
+      }
+      
+      #application{
+        background-color:white;
+        text-align: left;
+        margin-right: auto;
+        margin-left: 5%;
+        margin-top: 7%;
+        padding-bottom: 3%;
+        border: solid red;
+        border-radius: 5px;
+        color:black;
+        width:90%;
+        font-family: 'Montserrat', sans-serif;
+      }
+      #application h3{
+        margin-left:30%;
+        font-size: x-large;
+      }
+      
+      #button{
+        background-color: red;
+        border-color:red;
+        padding: 10px 30px 10px 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: larger;
+        border-radius:5px;
+        font-weight: 500;
+      }
+      a.button:link {
+        color:black;
+        text-decoration: none;
+      }
+      a.button:visited {
+        color:black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a.button:hover {
+        color:black;
+        background-color: transparent;
+        text-decoration: none;
+        font-size: 12pt;
+      }
+      a.button:active {
+        color:black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a.login:link {
+        color:red;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a.login:visited {
+        color: red;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a.login:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a.login:active {
+        color: red;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+        /* Create two equal columns that floats next to each other */
+      .column {
+          float: left;
+          width: 40%;
+          padding: 10px;
+          height: 250px; /* Should be removed. Only for demonstration */
+          background-color:rgb(236, 240, 240);
+          text-align:center;
+          margin-left:2%;
+          padding-top:5%;
+      }
+        
+        /* Clear floats after the columns */
+      .row:after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+      .row{
+        margin-left: 10%;
+      }
+
+      /* subscription */
+      .updates {
+        text-align: center;
+        width: 100%;
+        padding: 2rem 0.9375rem;
+        background-color: black;
+      }
+
+      .updates h3 {
+        text-align: center;
+        font-family: Montserrat;
+        color: #FFFF;
+        font-weight: normal
+      }
+
+      .updates p {
+        color: #BDC4CC;
+      }
+      .updates-header h3:hover {
+        color: #aa1917;
+
+      }
+      .updates-header p:hover {
+        color: #aa1917;
+
+      }
+
+      .updates-input {
+        padding: 2rem;
+      }
+
+      .info {
+        display: inline-block;
+        margin: 0;
+      }
+
+      .reg-input {
+        background-color: #FFF;
+        height: 64px;
+        width: 284px;
+        border-style: none;
+        margin: 0;
+        font-size: .9375rem;
+        padding-left: 1rem;
+      }
+
+      .reg-btn {
+        margin: 0;
+        background-color: #aa1917;
+        border-style: none;
+        height: 64px;
+        width: 176px;
+        text-align: center;
+        font-family: Montserrat;
+        color: #FFF;
+        font-size: .9375rem;
+        line-height: 1.5rem;
+        padding: 0 1.35rem;
+        margin: 0 0.5rem;
+        cursor: pointer;
+      }
+      .btn input:hover{
+        color: #aa1917;
+        background-color: #FFF;
+
+      }
+      .btn {
+        margin: 0;
+      }
+
+      
+      
+      /*footer*/
+      .footer {
+        background-color: black;
+        margin-top: 0;
+        width: 100%;
+        height: 40%;
+        color: whitesmoke;
+        display: flex;
+        padding: 0rem 0.9375rem;
+      }
+
+      #logo_footer {
+        margin-top: 7px;
+        width: 108px;
+        height: 133px;
+        margin-left: 2.5rem;
+      }
+
+      .col-2 {
+        text-align: center;
+        padding: 7%;
+        /* background-color: black; */
+        /* background-color: #f2f2f2; */
+        margin: 4%;
+        flex: 1;
+        padding: 16px;
+      }
+
+      .icon {
+        margin-top: 7px;
+        width: 7%;
+        float: right;
+        align-content: flex-end;
+      }
+      .col-2 a:hover{
+      color: #aa1917;
+      }
+      .icons {
+        color: white;
+        margin: 0.5rem;
+      }
+
+      .icons:hover{
+        color: #aa1917;
+
+      }
+      .address {
+        font-family: Montserrat;
+        font-weight: 200;
+      }
+      .address:hover {
+        color: #aa1917;
+
+      }
+      #for_company {
+        width: 40%;
+        float: left;
+        display: inline-flex;
+      }
+
+      #fb_icon {
+        width: 75px;
+        height: 75px;
+      }
+
+      #ig_icon {
+        width: 75px;
+        height: 75px;
+      }
+
+      #twitter_icon {
+        width: 75px;
+        height: 75px;
+      }
+      
+  
+} 
+
+/* subscription */
+.updates {
+  text-align: center;
+  width: 100%;
+  padding: 2rem 0.9375rem;
+  background-color: black;
+}
+
+.updates h3 {
+  text-align: center;
+  font-family: Montserrat;
+  color: #FFFF;
+  font-weight: normal
+}
+
+.updates p {
+  color: #BDC4CC;
+}
+.updates-header h3:hover {
+  color: #aa1917;
+
+}
+.updates-header p:hover {
+  color: #aa1917;
+
+}
+
+.updates-input {
+  padding: 2rem;
+}
+
+.info {
+  display: inline-block;
+  margin: 0;
+}
+
+.reg-input {
+  background-color: #FFF;
+  height: 64px;
+  width: 284px;
+  border-style: none;
+  margin: 0;
+  font-size: .9375rem;
+  padding-left: 1rem;
+}
+
+.reg-btn {
+  margin: 0;
+  background-color: #aa1917;
+  border-style: none;
+  height: 64px;
+  width: 176px;
+  text-align: center;
+  font-family: Montserrat;
+  color: #FFF;
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  padding: 0 1.35rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.btn input:hover{
+   color: #aa1917;
+   background-color: #FFF;
+
+}
+.btn {
+  margin: 0;
+}
+
+
+
+/*footer*/
+.footer {
+  background-color: black;
+  margin-top: 0;
+  width: 100%;
+  height: 40%;
+  color: whitesmoke;
+  display: flex;
+  padding: 0rem 0.9375rem;
+}
+
+#logo_footer {
+  margin-top: 7px;
+  width: 108px;
+  height: 133px;
+  margin-left: 2.5rem;
+}
+
+.col-2 {
+  text-align: center;
+  padding: 7%;
+  /* background-color: black; */
+  /* background-color: #f2f2f2; */
+  margin: 4%;
+  flex: 1;
+  padding: 16px;
+}
+
+.icon {
+  margin-top: 7px;
+  width: 7%;
+  float: right;
+  align-content: flex-end;
+}
+.col-2 a:hover{
+ color: #aa1917;
+}
+.icons {
+  color: white;
+  margin: 0.5rem;
+}
+
+.icons:hover{
+  color: #aa1917;
+
+}
+.address {
+  font-family: Montserrat;
+  font-weight: 200;
+}
+.address:hover {
+  color: #aa1917;
+
+}
+#for_company {
+  width: 40%;
+  float: left;
+  display: inline-flex;
+}
+
+#fb_icon {
+  width: 75px;
+  height: 75px;
+}
+
+#ig_icon {
+  width: 75px;
+  height: 75px;
+}
+
+#twitter_icon {
+  width: 75px;
+  height: 75px;
+}
