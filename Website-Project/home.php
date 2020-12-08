@@ -48,16 +48,13 @@
   </div>
   <!--End of the navBar-->
 
-
+<!--  Beginnening of Page-->
 
   <div id="page">
 
     <div class="content">
-      <!-- <div class="image">
-    <img src="Images/home_pic.jpg" alt="" id="home_pic">
-
-  </div> -->
-
+  
+<!-- First dynamic gallery -->
       <div class="slideshow">
         <div class="gallery">
           <div class="gallery-img">
@@ -96,6 +93,8 @@
         <button type="button" name="button" class="btn-home"><a href="about.php">About</a></button>
         <button type="button" name="button" class="btn-home">Adopt</button>
       </div>
+	    <!-- Carousel for inspirational stories with modal poppout pages- help from W3 schools -->
+
        <div class="slideshow">
         <h2>Our Heroes</h2>
 
@@ -143,6 +142,7 @@
         <span class="dots" onclick="slide(3)"></span>
       </div>
 
+<!--Modal pages for inspirational stories tutorial from W3 Schools 	    -->
       <div id="popup" class="popup">
 
 
@@ -227,7 +227,7 @@
 
 
         </div>
-
+<!-- News bar -->
       </div>
       <div class="news">
         <h2>News</h2>
@@ -259,7 +259,8 @@
     </div>
 
   </div>
-  <div class="updates">
+<!-- Updates bar for subscriptions and mailing list -->
+	<div class="updates">
     <div class="updates-header">
       <h3><span> STAY ON TOP OF THE LATEST NEWS</span></h3>
       <p><span>Learn about the Montreal SPCA’s activities and follow our adventures as we help animals in distress.</span></p>
@@ -309,6 +310,7 @@
 </html>
 
 <?php
+// mailing list file and email functionality linkedto subscription registration form
 session_start();
  
  
