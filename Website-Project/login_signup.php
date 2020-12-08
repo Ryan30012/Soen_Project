@@ -70,11 +70,6 @@
                         <label>Password</label>
                         <input type="password" class="input" name="Pass1">
                     </div>
-                    <div class="passreset">
-                        <p class="password-reset">
-                            <a href="#">Forgot your password?</a>
-                        </p>
-                    </div>
                     <div class="load-btn">
                         <button name="login-btn" type="submit" class="Log">Login</button>
                     </div>
