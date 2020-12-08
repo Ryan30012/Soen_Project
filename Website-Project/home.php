@@ -91,7 +91,7 @@
       <div class="btn-three">
         <button type="button" name="button" class="btn-home"><a href="donate.html" class="">Donate</a></button>
         <button type="button" name="button" class="btn-home"><a href="about.php">About</a></button>
-        <button type="button" name="button" class="btn-home">Adopt</button>
+        <button type="button" name="button" class="btn-home"><a href="Adopt.php">Adopt</a></button>
       </div>
 	    <!-- Carousel for inspirational stories with modal poppout pages- help from W3 schools -->
 
