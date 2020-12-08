@@ -3,11 +3,21 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: rgb(213, 238, 236);
+}
+.Admin-title{
+    position: relative;
+    font-size: 50px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Roboto";
+}
 .content-background{
     background-color: rgb(255, 241, 241);
 }
 .content{
-    margin: 125px 16% 65px 16%;
+    margin: 50px 16% 65px 16%;
     padding-top: 50px;
 }
 #id-lbl{
